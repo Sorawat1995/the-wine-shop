@@ -1,0 +1,146 @@
+<html>
+<head>
+	<meta name ="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Workspace</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+</head>
+<body>
+	<div id="wrapper">
+		<header class="header-site">
+			<nav class="nav-site">
+				<div class="container">
+					<div class="logo">THE WINE SHOP</div>
+					<a href="#" class="toggle-nav">
+						<i class="fa fa-bars"></i>
+					</a>
+					<ul class="menu-wrapper">
+						<li><a href="#" class="menu-item">HOME</a></li>
+						<li><a href="#" class="menu-item">NEW ARRIVALS</a></li>
+						<li><a href="#" class="menu-item">PROMOTION</a></li>
+						<li><a href="#" class="menu-item">CONTACT</a></li>
+					</ul>
+					<div class="cart-product">
+						<a href="#"><img src="images/cart.png" class="cart"></a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="slides-show"></div>
+
+		<section id="work" class="section-style gray">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-heading">PRODUCT</h2>
+					<p class="section-txt">CHOOSE YOUR PRODUCT</p>
+				</div>
+				<select class="filter-select">
+					<option>All</option>
+					<option>Wine</option>
+					<option>Champagne</option>
+					<option>Beers</option>
+				</select>
+
+				<ul class="filter-label-wrapper">
+					<li class="filter-item"><a href="#" class="filter-style">All</a></li>
+					<li class="filter-item"><a href="#" class="filter-style">Wine</a></li>
+					<li class="filter-item"><a href="#" class="filter-style">Champagne</a></li>
+					<li class="filter-item"><a href="#" class="filter-style">Beers</a></li>
+				</ul>
+
+				<!-- <div class="work-item-wrapper"> -->
+					<div class="work-item">
+						<div class="thumb">
+							<div class="thumb-img">
+								<img src="images/1.jpg" class="fluid-img">
+							</div>
+							<div class="txt-wine-name">MONETTO</div>
+							<div class="txt-wine-country">AUSTRALIA</div>
+							<!-- <form action="bye_api.php" method="POST"> -->
+							<form method="POST">
+							<input type="hidden" name="namewine" value="MONENTO">
+							<input type="hidden" name="bornwine" value="ARGENTINA">
+							<input type="hidden" name="piecewine" value="2,200">
+							<a href=""><input type="submit" formaction="product.php" name="submit" class="submit-add" value="ADD TO CART"></a>
+							</form>
+						</div>
+					</div>
+
+				<div class="work-item">
+						<div class="thumb">
+							<div class="thumb-img">
+								<img src="images/2.jpg" class="fluid-img">
+							</div>
+							<div class="txt-wine-name">ROMANEE</div>
+							<div class="txt-wine-country">ARGENTINA</div>
+							<div class="button-add">ADD TO CART</div>
+						</div>
+					</div>
+				<div class="work-item">
+						<div class="thumb">
+							<div class="thumb-img">
+								<img src="images/3.jpg" class="fluid-img">
+							</div>
+							<div class="txt-wine-name">SOLAR</div>
+							<div class="txt-wine-country">ITALY</div>
+							<div class="button-add">ADD TO CART</div>
+						</div>
+					</div>
+				<div class="work-item">
+						<div class="thumb">
+							<div class="thumb-img">
+								<img src="images/4.jpg" class="fluid-img">
+							</div>
+							<div class="txt-wine-name">SUTF BLESS</div>
+							<div class="txt-wine-country">GERMANY</div>
+							<div class="button-add">ADD TO CART</div>
+						</div>
+					</div>
+				<div class="work-item">
+						<div class="thumb">
+							<div class="thumb-img">
+								<img src="images/5.jpg" class="fluid-img">
+							</div>
+							<div class="txt-wine-name">BACORANY</div>
+							<div class="txt-wine-country">SWEDEN</div>
+							<div class="button-add">ADD TO CART</div>
+						</div>
+					</div>
+				<div class="work-item">
+						<div class="thumb">
+							<div class="thumb-img">
+								<img src="images/6.jpg" class="fluid-img">
+							</div>
+							<div class="txt-wine-name">CHANDON</div>
+							<div class="txt-wine-country">NORWAY</div>
+							<div class="button-add">ADD TO CART</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer-site">
+			<div class="container">
+				<ul class="social-wrapper">
+					<li class="icon-style">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li class="icon-style">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li class="icon-style">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</li>
+				</ul>
+				<p class="txt-small">COPYRIGHT &copy; : THE WINE SHOP 2017 </p>
+				
+			</div>
+		</footer>
+	</div><!-- wrapper -->
+</body>
+</html>

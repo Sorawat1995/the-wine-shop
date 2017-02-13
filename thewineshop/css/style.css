@@ -1,0 +1,289 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.nav-site{
+	background: #fff;
+	height: 50px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.12);
+}
+.logo{
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 50px;
+	float: left;
+}
+.cart-product{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.cart{
+	width: 30px;
+	height: 30px;
+}
+.toggle-nav i{
+	font-size: 20px;
+	width: 30px;
+	line-height: 50px;
+	color: #cc6633;
+	float: right;
+}
+.container{
+	margin: 0 15px;
+}
+.container:before{
+	clear: both;
+	display: table;
+	content: " ";
+}
+.container:after{
+	clear: both;
+	display: table;
+	content: " ";
+}
+.slides-show{
+	width: 100%;
+	height: 800px;
+	margin: 0 10px;
+	background: #000;
+	margin: 0 auto;
+	background-image: url(../images/wine-2.jpg);
+	background-size: cover;
+	position: relative;
+}
+.footer-site{
+
+	background: #333;
+	text-align: center;
+	color: #fff;
+	padding: 40px 0;
+	font-size: 11px;
+}
+.social-wrapper{
+	/*float: left;*/
+	/*margin-top: 10px;*/
+	width: 125px;
+	height: 30px;
+}
+.icon-style{
+	float: left;
+	font-size: 24px;
+	list-style: none;
+	width: 30px;
+	padding: 5px;
+}
+/*.icon-style:hover{
+	color: #db0a5b;
+}*/
+.icon-style a{
+	color: #999999;
+	transition : 0.5s;
+}
+.icon-style a:hover{
+	color:#fff; 
+}
+.section-header{
+	text-align: center;
+	margin: 30px 0;
+}
+.section-heading{
+	color: #333;
+	font-weight: bold;
+	font-size: 30px;
+}
+.section-txt{
+	font-size: 14px;
+	color: #999999;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.filter-select{
+	font-size: 14px;
+	padding: 8px;
+	border: 1px solid #eee;
+	width: 100%;
+	border-radius: 3px;
+	outline-color: #000;
+	margin-bottom: 15px;
+}
+.thumb{
+	background: #fff;
+	border-radius: 3px;
+	border: solid 1px #eee;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+	position: relative;
+	margin-bottom: 15px;
+	box-sizing:border-box;
+}
+.thumb-img{
+	padding: 10px;
+}
+.fluid-img{
+	display: block;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+.txt-wine-name{
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.txt-wine-country{
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.button-add{
+	width: 130px;
+	height: 15px;
+	background-color: transparent;
+	border : 1px solid #000; 
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 90px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: 0.5s ;
+}
+.submit-add{
+	width: 130px;
+	height: 35px;
+	background-color: transparent;
+	border : 1px solid #000; 
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 90px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: 0.5s ;
+}
+.submit-add:hover{
+	background: #000;
+	color: #fff;
+}
+.button-add:hover{
+	background: #000;
+	color: #fff;
+}
+.thumb-heading{
+	margin: 10px 10px 0;
+	font-size: 16px;
+}
+.work-item:hover .thumb-overlay{
+	opacity: 0.6;
+	cursor: pointer;
+	transition:0.3s;
+}
+.menu-wrapper{
+	display: none;
+}
+.filter-label-wrapper{
+	display: none;
+}
+.txt-small{
+	/*margin-bottom: -20px;*/
+	margin-top: 40px;
+	margin-right: 730px;
+}
+@media screen and (min-width: 768px) {
+	.toggle-nav{
+		display: none;
+	}
+	.menu-wrapper{
+		display: block;
+		float: left;
+		min-width: 30%;
+		margin-left: 250px;
+	}
+	.menu-wrapper li {
+		float: left;
+	}
+	.menu-item{
+		float: left;
+		display: block;
+		font-size: 14px;
+		padding: 0 10px;
+		line-height: 50px;
+		color: #999999;
+		transition: 0.5s;
+	}
+	.menu-item:hover{
+		color: #000;
+		
+	}
+	.filter-select{
+		display: none;
+	}
+	.filter-label-wrapper{
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.filter-item{
+		display: inline-block;
+		border-radius: 3px;
+		border: 1px solid #eee;
+		list-style: none;
+		margin: 0 5px;
+		background: #fff;
+	}
+	.filter-style{
+		display: block;
+		font-size: 14px;
+		color: #999;
+		padding: 8px;
+		transition:0.5s;
+	}
+	.filter-style:hover{
+		background: #000;
+		color: #fff;
+	}
+	.work-item{
+		width: 50%;
+		float: left;
+	}
+	.thumb{
+		margin: 0 8px 15px;
+		transition:0.5s;
+	}
+	.thumb:hover{
+		/*-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.31);
+		-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.31);
+		box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.31);*/
+		cursor: pointer;
+		border: 1px solid #999;
+	}
+}
+@media screen and (min-width: 1024px){
+	.container{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.work-item{   
+		width: 33.333%;
+	}
+	.service-item{
+		width: 50%;
+		float: left;
+	}
+	.media{
+		margin: 5px;
+	}
+}
